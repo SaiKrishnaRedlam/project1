@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: rgba(226, 238, 238, 0.849);
+            width: 300px;
+            border-radius: 10px;
+            padding: 15px;
+            padding-left: 40px;
+            text-align: center;
+        }
+        body{
+
+            background-image:url(./2630.jpg);
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section style="margin: 100px; margin-left: 450px;">
+        <div>
+            <form action="app.java" method="POST">
+                <div>
+                    <img src="./icon-ios7-contact-512.png" alt="icon" />
+                </div>
+                <div>
+                <label for="username">USERNAME</label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required/>
+                </div>
+                 <div style="padding-top: 5px;">
+                     <label for="password">PASSWORD</label>
+                     <input type="password" id="password" name="password" placeholder="Enter password" required/>
+                 </div>
+                 <div  style="padding-top: 5px;">
+                     <label for="radio">Gender</label>
+                     <input type="radio" id="radio" name="gender"/>Male
+                     <input type="radio" id="radio1" name="gender"/>Female
+                 </div>
+                 <div  style="padding-top: 5px;">
+                     <label for="date">Date</label>
+                     <input type="datetime-local" id="dateandtime" name="date" />
+                 </div>
+                 <div  style="padding-top: 5px;">
+                    <label for="color">color</label>
+                    <input type="color" id="color" name="color" />
+                </div>
+                <div>
+                    <label for="File">Upload file</label>
+                   <input type="File" id="file" name="file" />
+                </div>
+                <div  style="padding-top: 5px; opacity: 1; padding: 10px;">
+                 <button type="submit" style="background-color: rgba(6, 53, 53, 0.438); width: 100px; border-radius: 10px;">Login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
